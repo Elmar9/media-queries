@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    padding: 91px 124px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left h1{
+font-weight: 700;
+font-size: 55px;
+color: black;
+margin-bottom:55.76px;
+}
+.left p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 315px;
+    margin-left: 190px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 94px;
+
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.a p{
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+.b p{
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+.c p{
+    font-weight: 400;
+    font-size: 18px;
+  
+}
+
+.c h1{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.b h1{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.a h1{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+
+@media (max-width: 1400px) {
+    .bottom .logo{
+        display: none;
+    }
+
+    .container{
+        padding: 56px 72px;
+    }
+
+    p{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    h1{
+        font-size: 32px !important;
+    }
+
+
+    .top .right{
+        width: 181.86px;
+        height: 182.44px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50% !important;
+    }
+    .content h1{
+        font-size: 15px !important;
+    }
+
+    .content p{
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width: 830px) {
+    .bottom .logo{
+        display: none;
+    }  
+
+    .container{
+        padding: 107px 36px;
+    }
+    
+    
+    
+    p{
+      font-size: 12px;  
+      line-height: 18px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .top {
+        display: flex !important;
+        flex-direction: column;
+
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        margin: 0;
+
+    }
+    .right .photo{
+        width: 146.32px !important;
+        height: 146.78px !important;
+    }
+
+    .bottom .content{
+        width: 100% !important;
+        
+    }
+ 
+
+}
+
+
